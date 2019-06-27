@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency "TZImagePickerController"
+  s.dependency "TZImagePickerController", :git => 'https://github.com/bolee/TZImagePickerController.git', :tag => '4.0.0'
 
-  s.dependency "MWPhotoBrowser"
+  s.dependency "MWPhotoBrowser", '~> 2.1.2'
 
 end
