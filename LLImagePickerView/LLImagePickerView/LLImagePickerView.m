@@ -5,14 +5,13 @@
 //  Created by liushaohua on 2017/6/1.
 //  Copyright © 2017年 liushaohua. All rights reserved.
 //
-
+#import <TZImagePickerController/TZImagePickerController.h>
+#import <MWPhotoBrowser/MWPhotoBrowser.h>
 #import "LLImagePickerView.h"
 #import "LLImagePickerCell.h"
 #import "LLImagePickerConst.h"
 #import "LLImagePickerManager.h"
 #import "ACAlertController.h"
-#import "TZImagePickerController.h"
-#import "MWPhotoBrowser.h"
 
 @interface LLImagePickerView ()<UICollectionViewDelegate,UICollectionViewDataSource,TZImagePickerControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MWPhotoBrowserDelegate>
 
